@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	background-color: #eee;
+}
+
+.app {
+	font-size: 32px;
+}
