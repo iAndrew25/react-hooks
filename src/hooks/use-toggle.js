@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
-export default state => {
-	let [value, setValue] = useState(state),
+export default (initialState = false) => {
+	let [value, setValue] = useState(initialState),
 		toggle = () => value ? setValue(false) : setValue(true);
 
 	return [value, toggle]
